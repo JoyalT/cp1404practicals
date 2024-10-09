@@ -49,6 +49,5 @@ def show_stars(score):
     """Print stars equal to the value of the score."""
     print('*' * int(score))
 
-
 # Start the program
 main()
