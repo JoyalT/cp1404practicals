@@ -3,7 +3,6 @@ def main():
     masked_password = show_asterisks(user_password)
     print(masked_password)
 
-
 def show_asterisks(user_password):
     return '*' * len(user_password)
 
