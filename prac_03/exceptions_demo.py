@@ -14,10 +14,9 @@ while True:
         if denominator == 0:
             print("Cannot divide by zero!")
         else:
-            fraction = numerator / denominator
+            fraction = numerator/denominator
             print(fraction)
     except ValueError:
         print("Numerator and denominator must be valid numbers_file.txt!")
     print("Finished.")
-
 
